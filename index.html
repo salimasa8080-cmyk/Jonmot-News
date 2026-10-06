@@ -1,1 +1,240 @@
 
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>জনমত | সত্যের পক্ষে জনতার সাথে</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,"Noto Sans Bengali",sans-serif;
+  background:#fff;
+  color:#111;
+}
+
+header{
+  border-bottom:4px solid #111;
+  padding:18px 15px 10px;
+  text-align:center;
+}
+
+.logo{
+  font-size:42px;
+  font-weight:900;
+  letter-spacing:2px;
+}
+
+.tagline{
+  font-size:15px;
+  margin-top:5px;
+}
+
+.date{
+  font-size:13px;
+  margin-top:10px;
+  border-top:1px solid #999;
+  padding-top:7px;
+}
+
+nav{
+  display:flex;
+  overflow-x:auto;
+  border-bottom:1px solid #222;
+  background:#111;
+}
+
+nav a{
+  color:#fff;
+  text-decoration:none;
+  padding:12px 15px;
+  white-space:nowrap;
+  font-size:14px;
+}
+
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:15px;
+}
+
+.breaking{
+  border:2px solid #111;
+  padding:10px;
+  margin-bottom:18px;
+  font-weight:bold;
+}
+
+.breaking span{
+  background:#111;
+  color:#fff;
+  padding:5px 8px;
+  margin-right:8px;
+}
+
+.main-news{
+  border-bottom:3px solid #111;
+  padding-bottom:15px;
+  margin-bottom:20px;
+}
+
+.main-news h1{
+  font-size:30px;
+  line-height:1.35;
+  margin-bottom:10px;
+}
+
+.main-news p{
+  color:#444;
+  line-height:1.7;
+}
+
+.news-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:15px;
+}
+
+.news-card{
+  border:1px solid #aaa;
+  padding:14px;
+}
+
+.news-card h2{
+  font-size:20px;
+  line-height:1.4;
+  margin-bottom:8px;
+}
+
+.news-card p{
+  font-size:14px;
+  color:#555;
+  line-height:1.6;
+}
+
+.category{
+  display:inline-block;
+  background:#111;
+  color:#fff;
+  padding:4px 7px;
+  font-size:12px;
+  margin-bottom:8px;
+}
+
+footer{
+  margin-top:30px;
+  background:#111;
+  color:#fff;
+  text-align:center;
+  padding:25px 15px;
+}
+
+footer h2{
+  font-size:28px;
+  margin-bottom:8px;
+}
+
+footer p{
+  font-size:13px;
+  line-height:1.7;
+}
+
+@media(max-width:600px){
+  .logo{
+    font-size:36px;
+  }
+
+  .main-news h1{
+    font-size:24px;
+  }
+
+  .news-grid{
+    grid-template-columns:1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">জনমত</div>
+  <div class="tagline">সত্যের পক্ষে জনতার সাথে</div>
+  <div class="date">মঙ্গলবার, ৬ অক্টোবর ২০২৬</div>
+</header>
+
+<nav>
+  <a href="#">প্রচ্ছদ</a>
+  <a href="#">জাতীয়</a>
+  <a href="#">রাজনীতি</a>
+  <a href="#">নাটোর</a>
+  <a href="#">বড়াইগ্রাম</a>
+  <a href="#">অপরাধ</a>
+  <a href="#">বাংলাদেশ</a>
+  <a href="#">বিশ্ব</a>
+</nav>
+
+<div class="container">
+
+  <div class="breaking">
+    <span>সর্বশেষ</span>
+    জনমতের সর্বশেষ সংবাদ এখানে প্রকাশিত হবে
+  </div>
+
+  <section class="main-news">
+    <div class="category">প্রধান সংবাদ</div>
+    <h1>জনমত—সত্য ও নিরপেক্ষ সংবাদ প্রকাশের একটি নতুন প্ল্যাটফর্ম</h1>
+    <p>
+      আপনার এলাকার গুরুত্বপূর্ণ সংবাদ, জনদুর্ভোগ, অনিয়ম,
+      দুর্নীতি ও জনস্বার্থের বিষয়গুলো তুলে ধরাই জনমতের লক্ষ্য।
+    </p>
+  </section>
+
+  <div class="news-grid">
+
+    <article class="news-card">
+      <div class="category">নাটোর</div>
+      <h2>নাটোরের গুরুত্বপূর্ণ সংবাদ</h2>
+      <p>নাটোর জেলার বিভিন্ন এলাকার সংবাদ এখানে প্রকাশ করা হবে।</p>
+    </article>
+
+    <article class="news-card">
+      <div class="category">বড়াইগ্রাম</div>
+      <h2>বড়াইগ্রামের সর্বশেষ খবর</h2>
+      <p>বড়াইগ্রাম উপজেলার স্থানীয় সংবাদ ও জনস্বার্থের খবর এখানে থাকবে।</p>
+    </article>
+
+    <article class="news-card">
+      <div class="category">জাতীয়</div>
+      <h2>দেশের গুরুত্বপূর্ণ সংবাদ</h2>
+      <p>বাংলাদেশের গুরুত্বপূর্ণ জাতীয় সংবাদ এখানে প্রকাশ করা হবে।</p>
+    </article>
+
+    <article class="news-card">
+      <div class="category">জনগণের কথা</div>
+      <h2>আপনার এলাকার তথ্য দিন</h2>
+      <p>
+        গুরুত্বপূর্ণ তথ্য, ছবি বা ভিডিও আমাদের কাছে পাঠাতে পারেন।
+        তথ্য যাচাই করে সংবাদ প্রকাশ করা হবে।
+      </p>
+    </article>
+
+  </div>
+
+</div>
+
+<footer>
+  <h2>জনমত</h2>
+  <p>সত্যের পক্ষে জনতার সাথে</p>
+  <p>© ২০২৬ জনমত — সর্বস্বত্ব সংরক্ষিত</p>
+</footer>
+
+</body>
+</html>
